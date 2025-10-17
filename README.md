@@ -1,9 +1,9 @@
 # React + Vite
 
-**Journey of Learning Reactjs from Scratch**
+:hourglass: **Journey of Learning Reactjs from Scratch**  :hourglass:
 
 This is a simple react based social media app that demonstrates how react-router-dom helps to hyperlink from one page to another without reloading whole page
-Using Form ,redirect and useNavigate hook from react-router-dom package
+Using Form ,redirect,useNavigate hook from react-router-dom package and fetching a dummy API to display default post in HomeScreen
 
 When I was learning a React js I used a props frequently which I have to passed through every components even in those components where that props is not required 
 so to reduce those demerits I learn a useContext props API which allows us to make one store using createContext where all the businnes logic is stored and then we can use those method or logic from any components which reduce unneccessary passing props form one components to another
