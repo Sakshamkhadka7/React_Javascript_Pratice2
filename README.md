@@ -1,16 +1,19 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Journey of Learning Reactjs from Scratch**
 
-Currently, two official plugins are available:
+This is a simple react based social media app that demonstrates how react-router-dom helps to hyperlink from one page to another without reloading whole page
+Using Form ,redirect and useNavigate hook from react-router-dom package
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+When I was learning a React js I used a props frequently which I have to passed through every components even in those components where that props is not required 
+so to reduce those demerits I learn a useContext props API which allows us to make one store using createContext where all the businnes logic is stored and then we can use those method or logic from any components which reduce unneccessary passing props form one components to another
 
-## React Compiler
+In first I have used different hook to develop this app useRef in createPost.jsx to get the input that user has entered .
+learned how to use useState logically to display postList or createPost
+Gain valuable knowledge about useReducer hook where how dispatch initaited action and passed to the method 
+In learning process then I went to learn about useEffect hooks whch is used to make the Api call and handle 
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I have also explore a useCallback hooks which is used to re-render when the dependency make changes which helps to save memory  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
