@@ -2,6 +2,8 @@
 
 :hourglass: **Journey of Learning Reactjs from Scratch**  :hourglass:
 
+:pencil2: This project has some bug/error because this Project I learned from youtube so I couldnot make bug free so I will fixed this error when I will Learn all about react js  
+
 This is a simple react based social media app that demonstrates how react-router-dom helps to hyperlink from one page to another without reloading whole page
 Using Form ,redirect,useNavigate hook from react-router-dom package and fetching a dummy API to display default post in HomeScreen
 
